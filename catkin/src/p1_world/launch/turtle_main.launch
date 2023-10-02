@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="p1_world" type="turtle_main.py" name="turtle_main" output="screen">
+    <param name="scale_linear" value="0.5" type="double"/>
+    <param name="scale_angular" value="1.5" type="double"/>
+  </node>
+</launch>
