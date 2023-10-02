@@ -1,0 +1,13 @@
+command to ssh to laptop: ssh -Y 10.194.16.44
+
+- started roslaunch turtlebot_bringup minimal.launch already, looks good
+- you can monitor hardware status with rqt -s kobuki_dashboard, which brings up a gui that shows whats going on
+	* bringing both of those commands up at the same time show the status of all hardware, all says "OK"
+
+
+roslaunch turtlebot_bringup minimal.launch
+
+roslaunch turtlebot_bringup 3dsensor.launch 
+
+roslaunch p1_world turtle_main.launch
+
